@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="description" />
-	<meta name="author" content="student" />
-	<title>Index</title>
-	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="description" />
+		<meta name="author" content="student" />
+		<title>Index</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200..700;1,200..700&display=swap"
+			rel="stylesheet">
 
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-	<section class="promo">
-		<div class="container">
-			<div class="header">
+		<section class="promo">
+			<div class="container">
+				<div class="header">
+					<div class="header__wrapper">
 
+						<img src="/src/logo/Frame.svg" alt="logo" class="header__img">
+						<ul class="header__socials">
+							<li>
+								<a href="#">
+									<span class="icon-twitter"></span></a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="icon-twitch"></span></a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="icon-facebook"></span></a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="icon-vk"></span></a>
+							</li>
+						</ul>
+
+					</div>
+					<div class="header__line"></div>
+
+				</div>
 			</div>
-		</div>
-	</section>
+			<div class="swiper mySwiper promo__swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide  promo__slide-first">
+						<div class="container">
+							<div class="promo__slide">
+								<img src="/src/img/promo/image 289.png" alt="#" class="promo__img">
+								<h1 class="promo__title-h1">ESL Pro League CSGO</h1>
+								<h3 class="promo__title-h3">League CS:GO is the new online league in Counter-Strike:
+									Global
+									Offensive,
+									with
+									$100,000 total prize pool. 16 teams from Europe and the CIS will take part in the
+									League,
+									with 4
+									teams
+									going to League through open qualifiers.</h3>
+								<button class="promo__btn button-read">READ ANNOUNCMENT</button>
+								<button class="promo__btn button-get">GET TICKETS</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide promo__slide-second">Slide 2</div>
+					<div class="swiper-slide promo__slide-third">Slide 3</div>
+				</div>
+				<div class="swiper-pagination"></div>
+
+		</section>
 
 
-	<footer class="footer footer_spaced">
-		<div class="container">
+		<script type="module" src="src/js/script.js"></script>
 
-		</div>
-	</footer>
 
-	<script type="module" src="src/js/script.js"></script>
-
-</body>
+	</body>
 
 </html>

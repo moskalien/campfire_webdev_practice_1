@@ -1,2 +1,15 @@
 @use "/src/sass/base/mixins.scss" as *;
 @use "/src/sass/base/variables.scss" as *;
+
+.button-read {
+    @include Button;
+    background: #f3a917;
+}
+
+.button-get {
+    @include Button;
+    border: 2px solid #f3a917;
+    color: $white;
+    margin-left: 35px;
+
+}

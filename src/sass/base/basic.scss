@@ -1,3 +1,5 @@
+@use "/src/sass/base/variables.scss" as *;
+
 h1,
 h2,
 h3,
@@ -30,12 +32,16 @@ img {
     max-inline-size: 100%;
 }
 
+body {
+    background-color: #020106;
+}
+
 html {
-    font-family: "Barlow", sans-serif;
+    font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
 
 .container {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 200px;
 }

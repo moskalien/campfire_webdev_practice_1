@@ -1,0 +1,70 @@
+@use "/src/sass/base/variables.scss" as *;
+@use "/src/sass/base/mixins.scss" as *;
+
+.promo {
+
+    &__slide {
+        position: relative;
+        width: 690px;
+        margin-top: 163px;
+    }
+
+    &__slide-first {
+        @include Slide;
+        background-image: url(/src/img/backgrounds/shutterstock_1684693219\ 1.jpg);
+    }
+
+    &__slide-second {
+        @include Slide;
+        background-image: url(/src/img/backgrounds/shutterstock_1859261173\ 1.jpg);
+    }
+
+    &__slide-third {
+        @include Slide;
+        background-image: url(/src/img/backgrounds/shutterstock_1684693219\ 1.jpg);
+    }
+
+    &__img {
+        width: 191px;
+        height: 60px;
+    }
+
+    &__title-h1 {
+        margin-top: 35px;
+        font-weight: 650;
+        font-size: 60px;
+        color: $white;
+    }
+
+    &__title-h3 {
+        margin-top: 35px;
+        font-weight: 200;
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        color: $light-grey;
+    }
+
+    &__btn {
+        margin-top: 210px;
+    }
+
+    .swiper-pagination {
+        bottom: 0;
+        margin-bottom: 30px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+        background-color: $white;
+        border-radius: 100%;
+        opacity: 1;
+        --swiper-pagination-bullet-horizontal-gap: 9px;
+    }
+
+
+
+    .swiper-pagination-bullet-active {
+        background-color: #f3a917;
+    }
+}
