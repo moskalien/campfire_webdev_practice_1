@@ -9,12 +9,27 @@
 }
 
 @mixin Button {
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.01em;
     padding: 15px 20px;
     width: 246px;
     height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.01em;
     background-color: transparent;
     border: 2px solid #f3a917;
+}
+
+@mixin Tab {
+    padding: 15px 31px;
+    width: 152px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 167%;
+    color: $white;
+    background-color: transparent;
+    border: 1px solid #f3a917;
+    text-align: center;
+
 }

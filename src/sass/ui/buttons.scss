@@ -13,3 +13,12 @@
     margin-left: 35px;
 
 }
+
+.tab-matches {
+    @include Tab;
+    background: #f3a917;
+}
+
+.tab-battles {
+    @include Tab;
+}
