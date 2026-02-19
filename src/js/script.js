@@ -19,16 +19,16 @@ try {
     });
 
     const arrows = new Swiper(".results__swiper", {
-        spaceBetween: 30,
-        slidesPerView: 4,
+        spaceBetween: 39,
+        slidesPerView: 3,
         loop: true,
         hashNavigation: {
             watchState: true,
         },
 
         navigation: {
-            nextEl: ".results__button-next",
-            prevEl: ".results__button-prev",
+            nextEl: ".results__arrows-next",
+            prevEl: ".results__arrows-prev",
         },
         pagination: {
             el: ".results__arrows-pagination",
