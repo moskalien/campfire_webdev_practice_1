@@ -1,0 +1,99 @@
+@use "/src/sass/base/variables.scss" as *;
+@use "/src/sass/base/mixins.scss" as *;
+
+.stages {
+    padding: 115px 0 111px 0;
+    background-color: #f3a917;
+
+    &__wrapper {
+        display: flex;
+        gap: 135px;
+
+    }
+
+    &__contents {
+        margin-top: 30px;
+        max-width: 608px;
+    }
+
+    &__title-h2 {
+        line-height: 109%;
+        color: $black;
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 167%;
+        letter-spacing: 0.01em;
+        color: $black;
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    &__timeline {
+        width: 100%;
+    }
+
+    &__devider {
+        width: 56px;
+
+        &-line {
+            transform: translateX(-10px);
+            width: 76px;
+            height: 4px;
+            background-color: $white;
+        }
+    }
+
+
+
+    &__icon {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &-reg {
+            justify-items: center;
+
+            img {
+                width: 80px;
+            }
+
+            p {
+                margin-top: 33px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 156%;
+                letter-spacing: 0.01em;
+                text-align: center;
+                color: $black;
+            }
+        }
+
+
+    }
+
+    &__button {
+        margin: 68px auto 0 auto;
+        border-radius: 5px;
+        padding: 10px;
+        width: 341px;
+        height: 60px;
+        background-color: $white;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 156%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        align-content: center;
+        color: $black;
+    }
+}

@@ -1,17 +1,9 @@
 @use "/src/sass/base/variables.scss" as *;
 @use "/src/sass/base/mixins.scss" as *;
 
+
 .results {
     padding: 141px 0 152px 0;
-
-
-
-    &__title-h2 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 141%;
-        color: $white;
-    }
 
     &__line {
         margin-top: 40px;
