@@ -1,1 +1,96 @@
 @use "/src/sass/base/variables.scss" as *;
+@use "/src/sass/base/mixins.scss" as *;
+
+.footer {
+    align-content: end;
+    min-height: 1324px;
+    background: url(/src/img/backgrounds/shutterstock_1859261173\ 1.jpg);
+    background-position: top;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__table {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__filled {
+        margin-left: 108px;
+    }
+
+    &__title-h2 {
+        text-align: center;
+
+        &-small {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+    &__list {
+        margin-top: 16px;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        grid-template-rows: 55px;
+        grid-auto-columns: 1fr 10fr;
+        grid-auto-rows: 55px;
+        border: solid 1px #f3a917;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 175%;
+        color: $white;
+
+
+        &>* {
+            border: solid 1px #f3a917;
+            background: #292a2f;
+            align-content: center;
+        }
+
+        &-title {
+            background-color: #f3a917;
+            color: $black;
+
+        }
+
+        &-num {
+            text-align: center;
+            font-weight: 400;
+        }
+
+        &-team {
+            padding-left: 10px;
+
+            img {
+                display: inline;
+                width: 24px;
+                height: 18px;
+                margin: 0 10px;
+            }
+        }
+
+    }
+
+    &__nav {
+        padding: 56px 99px 89px 73px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 175%;
+                color: $white;
+            }
+        }
+    }
+
+
+}
